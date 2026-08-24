@@ -198,7 +198,7 @@ export const projects: Project[] = [
     technologies: ['Next.js', 'Tailwind CSS', 'next-i18next', 'Vercel'],
     image: '/images/projects/IEEE-STUDENT-BRANCH-TEMPLATE.png',
     link: 'https://ieee-kou.vercel.app',
-    githubLink: 'https://github.com/ilkaymb/ieee-student-branch-template',
+    githubLink: 'https://github.com/ilkay-bora/ieee-student-branch-template',
     gallery: [
       { type: 'image', src: '/projects/ieee-student-branch-template/homepage.png', label: { tr: 'Ana sayfa', en: 'Homepage' } },
       { type: 'image', src: '/projects/ieee-student-branch-template/committee-page.png', label: { tr: 'Komiteler ızgarası', en: 'Committees grid' } },
@@ -244,7 +244,7 @@ export const projects: Project[] = [
     technologies: ['React', 'React Router', 'react-i18next', 'Vercel'],
     image: '/images/projects/SAMPLE-MENU.png',
     link: 'https://restaurant-menu-react-tau.vercel.app',
-    githubLink: 'https://github.com/ilkaymb/restaurant-menu-React',
+    githubLink: 'https://github.com/ilkay-bora/restaurant-menu-React',
     gallery: [
       { type: 'image', src: '/projects/restaurant-menu/homepage.png', label: { tr: 'Ana sayfa', en: 'Homepage' } },
       { type: 'image', src: '/projects/restaurant-menu/category.png', label: { tr: 'Kategori sayfası', en: 'Category page' } },
