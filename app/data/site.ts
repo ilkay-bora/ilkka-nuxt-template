@@ -47,9 +47,9 @@ export const site = {
     sending: { tr: 'Gönderiliyor...', en: 'Sending...' } as Bilingual,
     sent: { tr: 'Teşekkürler, en kısa sürede dönüş yapacağız.', en: 'Thanks, we\'ll get back to you shortly.' } as Bilingual,
     directTitle: { tr: 'Veya doğrudan ulaşın', en: 'Or reach us directly' } as Bilingual,
-    email: 'ilkaymb@hotmail.com',
-    github: 'https://github.com/ilkaymb',
-    linkedin: 'https://www.linkedin.com/in/ilkaymb/',
+    email: 'ilkay.bora@outlook.com',
+    github: 'https://github.com/ilkay-bora',
+    linkedin: 'https://www.linkedin.com/in/ilkaymbora/',
   },
   footer: {
     tagline: { tr: 'Yazılım Çözümleri Stüdyosu', en: 'Software Solutions Studio' } as Bilingual,

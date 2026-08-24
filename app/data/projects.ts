@@ -126,7 +126,7 @@ export const projects: Project[] = [
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Mongoose'],
     image: '/images/projects/TEKNOKIYAS.png',
     link: 'https://teknokiyas.vercel.app',
-    githubLink: 'https://github.com/ilkaymb/teknokiyas',
+    githubLink: 'https://github.com/ilkay-bora/teknokiyas',
     gallery: [
       { type: 'image', src: '/projects/teknokiyas/homepage.png', label: { tr: 'Ana sayfa', en: 'Homepage' } },
       { type: 'image', src: '/projects/teknokiyas/products.png', label: { tr: 'Ürün listesi ve filtreler', en: 'Product listing & filters' } },
@@ -149,7 +149,7 @@ export const projects: Project[] = [
     technologies: ['Vue 3', 'Django', 'Hugging Face', 'Python', 'Vite'],
     image: '/images/projects/SEMANTIC-SPLIT.png',
     link: 'https://semantic-split.vercel.app',
-    githubLink: 'https://github.com/ilkaymb/semantic-split',
+    githubLink: 'https://github.com/ilkay-bora/semantic-split',
     gallery: [
       { type: 'image', src: '/projects/semantic-split/homepage.png', label: { tr: 'Ana sayfa', en: 'Homepage' } },
       { type: 'image', src: '/projects/semantic-split/split-result.png', label: { tr: 'Anlamsal ayırma sonucu', en: 'Semantic split result' } },
@@ -174,7 +174,7 @@ export const projects: Project[] = [
     technologies: ['React 19', 'rsuite', 'Victory', 'react-icons', 'react-countup'],
     image: '/images/projects/kouStatisticsShowcase.png',
     link: 'https://kou-statistics-showcase.vercel.app/',
-    githubLink: 'https://github.com/ilkaymb/kou-statistics-showcase',
+    githubLink: 'https://github.com/ilkay-bora/kou-statistics-showcase',
     gallery: [
       { type: 'image', src: '/projects/kou-statistics-showcase/hero.png', label: { tr: 'Açılış ekranı', en: 'Opening screen' } },
       { type: 'image', src: '/projects/kou-statistics-showcase/program-sayisi.png', label: { tr: 'Program dağılım kartları', en: 'Program distribution cards' } },
@@ -219,7 +219,7 @@ export const projects: Project[] = [
     technologies: ['Angular', 'TypeScript', 'ASP.NET Core', 'C#', 'MySQL', 'JWT'],
     image: '/images/projects/vbHomePage.png',
     link: 'https://vb-ecommerce-ilkaymbs-projects.vercel.app',
-    githubLink: 'https://github.com/ilkaymb/VB-Ecommerce-Client-Angular',
+    githubLink: 'https://github.com/ilkay-bora/VB-Ecommerce-Client-Angular',
     gallery: [
       { type: 'video', src: '/projects/vb-ecommerce/demo.mp4', label: { tr: 'Tanıtım', en: 'Demo' } },
       { type: 'image', src: '/projects/vb-ecommerce/homepage.png', label: { tr: 'Ana sayfa', en: 'Homepage' } },
