@@ -114,6 +114,31 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: 'castaway-deck',
+    title: 'Castaway Deck',
+    description: {
+      tr: 'Godot 4 ile tek başıma geliştirdiğim sıcacık bir ada hayatta kalma kart oyunu: sisi karo karo aç, kartlarla topla ve kur, gecenin getirdiklerinden sağ çık. Blender\'da ön-render edilmiş izometrik karolar, 45\'ten fazla kart, geliştirilebilen 23 yapı, 90\'dan fazla gece olayı ve eve dönmenin yedi yolu. Tarayıcıda oynanabiliyor.',
+      en: 'A cozy island survival card game I built solo in Godot 4: clear the fog tile by tile, play cards to gather and build, and get through whatever the night brings. Isometric tiles pre-rendered in Blender, 45+ cards, 23 upgradable buildings, 90+ night events and seven ways home. Playable in the browser.',
+    },
+    longDescription: {
+      tr: 'Sisle kaplı, bilmediğin bir adaya vuruyorsun; elinde küçük bir deste karttan başka pek bir şey yok. Her kart bir eylem: yiyecek ve su topla, odun kes, sisi keşfet, barınak, ateş ve bahçe kur. Her gün enerjin sınırlı; her gece kazazedelerin yer, içer ve adanın getirdiğiyle yüzleşir: fırtınalar, tuhaf ziyaretçiler, vahşi hayvanlar, sessiz yıldızlı geceler. Kamp bir köye dönüşür, yapılar üçüncü seviyeye kadar gelişir, boş yatak varsa yeni kazazedeler gelir, her gece desteye yeni bir kart seçersin. Eve dönmenin tek bir yolu yok: işaret ateşi, sal, gerçek bir tekne, şişedeki mektup, adanın yerlileri, eski bir telsiz, ya da adanın artık evin olduğuna karar vermek.\n\nTeknik tarafta GDScript ile yazılmış bir Godot 4 projesi. Kurallar, görsel hiçbir şey bilmeyen ve her değişikliği sinyalle duyuran tek bir script\'te duruyor. Bir kural botu oyunu ekransız altmış gün oynayabiliyor; denge değişikliklerini oyunu açmadan önce böyle deniyorum. Bütün karolar ve yapılar, Blender\'ı süren Python script\'leriyle modellenip render ediliyor, yani sanatın tamamı koddan yeniden üretilebiliyor; yapılar yerleştirilince parça parça kuruluyor. Müzik ve ses efektleri numpy ile sentezlendi. İngilizce ve Türkçe; masaüstü ve web sürümleri aynı projeden çıkıyor.',
+      en: 'You wash up on an unknown island wrapped in fog, with a small deck of cards and not much else. Every card is an action: gather food and water, chop wood, explore the fog, build shelters, fires and gardens. Energy is limited each day, and every night your castaways eat, drink and face whatever the island brings: storms, strange visitors, wild animals, quiet starry nights. The camp grows into a village, buildings upgrade up to level three, newcomers arrive when there are empty beds, and you pick a new card for your deck every night. There is more than one way home: a signal fire, a raft, a real boat, a message in a bottle, the islanders, an old radio, or deciding the island is home now.\n\nUnder the hood it is a Godot 4 project written in GDScript, with the rules kept in one script that knows nothing about visuals and announces every change through signals. A rule bot can play sixty days headless, which is how balance changes get tested before I ever open the game. Every tile and building is modeled and rendered by Python scripts driving Blender, so the whole art set can be regenerated from code; buildings assemble piece by piece when placed. Music and sound effects are synthesized with numpy. English and Turkish, desktop and web builds from the same project.',
+    },
+    technologies: ['Godot 4', 'GDScript', 'Blender', 'Python'],
+    image: '/images/projects/CASTAWAY-DECK.jpg',
+    link: 'https://castaway-deck-onizleme.vercel.app',
+    gallery: [
+      { type: 'video', src: '/projects/castaway-deck/demo.mp4', label: { tr: 'Fragman', en: 'Trailer' } },
+      { type: 'image', src: '/projects/castaway-deck/island-start.jpg', label: { tr: '1. gün: sis yeni açıldı', en: 'Day 1: the fog has just cleared' } },
+      { type: 'image', src: '/projects/castaway-deck/play-cards.jpg', label: { tr: 'Kart oynarken: geçerli karolar parlar', en: 'Playing a card: valid tiles light up' } },
+      { type: 'image', src: '/projects/castaway-deck/discovery.jpg', label: { tr: 'Sisin altından çıkan bulgu', en: 'A find hidden in the fog' } },
+      { type: 'image', src: '/projects/castaway-deck/night-event.jpg', label: { tr: 'Seçimli bir gece olayı', en: 'A night event with choices' } },
+      { type: 'image', src: '/projects/castaway-deck/fire.jpg', label: { tr: 'Koru yangını', en: 'A grove catches fire' } },
+      { type: 'image', src: '/projects/castaway-deck/night-camp.jpg', label: { tr: 'Gece kamp', en: 'The camp at night' } },
+      { type: 'image', src: '/projects/castaway-deck/late-game.jpg', label: { tr: 'Geç oyun: fener ve taş evler', en: 'Late game: lighthouse and stone houses' } },
+    ],
+  },
+  {
     slug: 'teknokiyas',
     title: 'TeknoKıyas',
     description: {
