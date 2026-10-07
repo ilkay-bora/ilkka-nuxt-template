@@ -126,7 +126,7 @@ export const projects: Project[] = [
     },
     technologies: ['Godot 4', 'GDScript', 'Blender', 'Python'],
     image: '/images/projects/CASTAWAY-DECK.jpg',
-    link: 'https://castaway-deck-onizleme.vercel.app',
+    link: 'https://ilkay-bora.itch.io/castaway-deck',
     gallery: [
       { type: 'video', src: '/projects/castaway-deck/demo.mp4', label: { tr: 'Fragman', en: 'Trailer' } },
       { type: 'image', src: '/projects/castaway-deck/island-start.jpg', label: { tr: '1. gün: sis yeni açıldı', en: 'Day 1: the fog has just cleared' } },
